@@ -1,0 +1,2162 @@
+<center>
+  <style type="text/css">
+.jscred {
+   width: 480px;
+   text-align: right;
+ }
+ 
+ .jscred a {
+   font-size: 8px;
+   font-family: Times, serif;
+   margin-top: 5px;
+   line-height: 100%;
+   text-transform: uppercase;
+   color: black;
+   font-style: italic;
+ }
+ 
+ .hvysl {
+   width: 500px;
+ }
+
+ .hvysl .inner {
+   height: 0px;
+   overflow: hidden;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl:hover .inner {
+   height: 325px;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl .acnt {
+   width: 500px;
+   height: 100px;
+   padding: 50px 0px;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .acnt:first-of-type {
+   border: none;
+ }
+ 
+ .hvysl .acnt h1 {
+   color: white;
+   text-align: center;
+   margin: 0px;
+   font-weight: normal;
+   width: 270px;
+   font-family: times, serif;
+   font-size: 6px;
+   letter-spacing: 1px;
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+   padding: 40px 0px;
+   text-transform: uppercase;
+ }
+ 
+ .hvysl .acnt hr {
+   border: none;
+   height: 1px;
+   background-color: white;
+   width: 260px;
+ }
+ 
+ .hvysl .ad {
+   width: 500px;
+   height: 300px;
+   position: relative;
+   overflow: hidden;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .ad img {
+   width: 500px!important;
+   height: 300px!important;
+   display: block!imporant;
+ }
+ 
+ .hvysl .ad h1 {
+   z-index: 2;
+   background-color: 0080FF;
+   width: 100px;
+   height: 8px;
+   padding: 46px 0px;
+   text-align: center;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 8px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   color: white;
+   opacity: 0.7;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad:hover h1 {
+   opacity: 0;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad h3 {
+   z-index: 2;
+   background-color: #0080FF;
+   width: 100px;
+   height: 24px;
+   padding: 38px 0px;
+   text-align: center;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 12px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   color: black;
+   opacity: 0;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad:hover h3 {
+   opacity: 1;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad .ban {
+   width: 120px;
+   height: 0px;
+   background-color: #0080FF;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+   position: absolute;
+   top: 0px;
+   left: 40px;
+   opacity: 0.6;
+ }
+ 
+ .hvysl .ad:hover .ban {
+   height: 300px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad h2 {
+   font-family: white;
+   font-size: 7px;
+   line-height: 14px;
+   letter-spacing: 1px;
+   width: 100px;
+   margin: 0px;
+   text-transform: uppercase;
+   font-family: Times, serif;
+   position: absolute;
+   left: 50px;
+   bottom: 0px;
+   opacity: 0;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   font-weight: normal;
+   color: white;
+ }
+ 
+ .hvysl .ad:hover h2 {
+   bottom: 25px;
+   opacity: 0.8;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad .content {
+   width: 0px;
+   height: 200px;
+   position: absolute;
+   top: 50px;
+   right: 50px;
+   background-color: white;
+   opacity: 0.7;
+   -webkit-transition: 0.8s all ease-in-out 1s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+ }
+ 
+ .hvysl .ad:hover .content {
+   width: 290px;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad .txt {
+   color: black;
+   opacity: 0;
+   font-family: Times, serif;
+   font-size: 10px;
+   line-height: 150%;
+   width: 266px;
+   height: 180px;
+   padding-right: 4px;
+   overflow: auto;
+   text-align: justify;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   position: absolute;
+   top: 60px;
+   right: 60px;
+ }
+ 
+ .hvysl .ad:hover .txt {
+   opacity: 0.9;
+   -webkit-transition: 0.8s all ease-in-out 2.2s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad .txt::-webkit-scrollbar {
+   width: 4px;
+   background-color: transparent;
+ }
+ 
+ .hvysl .ad .txt::-webkit-scrollbar-thumb {
+   background-color: 222222;
+ }
+
+ .hvysl .inner2 {
+   height: 0px;
+   overflow: hidden;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl:hover .inner2 {
+   height: 324px;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl .acnt2 {
+   width: 500px;
+   height: 100px;
+   padding: 50px 0px;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .acnt2:first-of-type {
+   border: none;
+ }
+ 
+ .hvysl .acnt2 h1 {
+   color: white;
+   text-align: center;
+   margin: 0px;
+   font-weight: normal;
+   width: 270px;
+   font-family: times, serif;
+   font-size: 6px;
+   letter-spacing: 1px;
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+   padding: 40px 0px;
+   text-transform: uppercase;
+ }
+ 
+ .hvysl .acnt2 hr {
+   border: none;
+   height: 1px;
+   background-color: white;
+   width: 260px;
+ }
+ 
+ .hvysl .ad2 {
+   width: 500px;
+   height: 300px;
+   position: relative;
+   overflow: hidden;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .ad2 img {
+   width: 500px!important;
+   height: 300px!important;
+   display: block!imporant;
+ }
+ 
+ .hvysl .ad2 h1 {
+   z-index: 2;
+   background-color: indianred;
+   width: 100px;
+   height: 8px;
+   padding: 46px 0px;
+   text-align: center;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 8px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   color: #000000;
+   opacity: 0.7;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad2:hover h1 {
+   opacity: 0;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad2 h3 {
+   z-index: 2;
+   background-color: indianred;
+   width: 100px;
+   height: 24px;
+   padding: 38px 0px;
+   text-align: center;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 12px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   color: black;
+   opacity: 0;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad2:hover h3 {
+   opacity: 1;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad2 .ban2 {
+   width: 120px;
+   height: 0px;
+   background-color: indianred;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+   position: absolute;
+   top: 0px;
+   left: 40px;
+   opacity: 0.6;
+ }
+ 
+ .hvysl .ad2:hover .ban2 {
+   height: 300px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad2 h2 {
+   font-family: white;
+   font-size: 7px;
+   line-height: 14px;
+   letter-spacing: 1px;
+   width: 100px;
+   margin: 0px;
+   text-transform: uppercase;
+   font-family: Times, serif;
+   position: absolute;
+   left: 50px;
+   bottom: 0px;
+   opacity: 0;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   font-weight: normal;
+   color: white;
+ }
+ 
+ .hvysl .ad2:hover h2 {
+   bottom: 25px;
+   opacity: 0.8;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad2 .content2 {
+   width: 0px;
+   height: 200px;
+   position: absolute;
+   top: 50px;
+   right: 50px;
+   background-color: white;
+   opacity: 0.7;
+   -webkit-transition: 0.8s all ease-in-out 1s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+ }
+ 
+ .hvysl .ad2:hover .content2 {
+   width: 290px;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad2 .txt2 {
+   color: black;
+   opacity: 0;
+   font-family: Times, serif;
+   font-size: 10px;
+   line-height: 150%;
+   width: 266px;
+   height: 180px;
+   padding-right: 4px;
+   overflow: auto;
+   text-align: justify;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   position: absolute;
+   top: 60px;
+   right: 60px;
+ }
+ 
+ .hvysl .ad2:hover .txt2 {
+   opacity: 0.9;
+   -webkit-transition: 0.8s all ease-in-out 2.2s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad2 .txt2::-webkit-scrollbar {
+   width: 4px;
+   background-color: transparent;
+ }
+ 
+ .hvysl .ad2 .txt2::-webkit-scrollbar-thumb {
+   background-color: 222222;
+ }
+
+.hvysl .inner3 {
+   height: 0px;
+   overflow: hidden;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl:hover .inner3 {
+   height: 325px;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl .acnt3 {
+   width: 500px;
+   height: 100px;
+   padding: 50px 0px;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .acnt3:first-of-type {
+   border: none;
+ }
+ 
+ .hvysl .acnt3 h1 {
+   color: white;
+   text-align: center;
+   margin: 0px;
+   font-weight: normal;
+   width: 270px;
+   font-family: times, serif;
+   font-size: 6px;
+   letter-spacing: 1px;
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+   padding: 40px 0px;
+   text-transform: uppercase;
+ }
+ 
+ .hvysl .acnt3 hr {
+   border: none;
+   height: 1px;
+   background-color: white;
+   width: 260px;
+ }
+
+
+.hvysl .ad3 {
+   width: 500px;
+   height: 300px;
+   position: relative;
+   overflow: hidden;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .ad3 img {
+   width: 500px!important;
+   height: 300px!important;
+   display: block!imporant;
+ }
+ 
+ .hvysl .ad3 h1 {
+   z-index: 2;
+   background-color: 0080FF;
+   width: 100px;
+   height: 8px;
+   padding: 46px 0px;
+   text-align: center;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 8px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   color: #000000;
+   opacity: 0.9;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad3:hover h1 {
+   opacity: 0;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad3 h3 {
+   z-index: 2;
+   background-color: #0080FF;
+   width: 100px;
+   height: 24px;
+   padding: 38px 0px;
+   text-align: center;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 12px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   color: black;
+   opacity: 0;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad3:hover h3 {
+   opacity: 1;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad3 .ban3 {
+   width: 120px;
+   height: 0px;
+   background-color: #0080FF;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+   position: absolute;
+   top: 0px;
+   left: 40px;
+   opacity: 0.6;
+ }
+ 
+ .hvysl .ad3:hover .ban3 {
+   height: 300px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad3 h2 {
+   font-family: white;
+   font-size: 7px;
+   line-height: 14px;
+   letter-spacing: 1px;
+   width: 100px;
+   margin: 0px;
+   text-transform: uppercase;
+   font-family: Times, serif;
+   position: absolute;
+   left: 50px;
+   bottom: 0px;
+   opacity: 0;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   font-weight: normal;
+   color: white;
+ }
+ 
+ .hvysl .ad3:hover h2 {
+   bottom: 25px;
+   opacity: 0.8;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad3 .content3 {
+   width: 0px;
+   height: 200px;
+   position: absolute;
+   top: 50px;
+   right: 50px;
+   background-color: white;
+   opacity: 0.7;
+   -webkit-transition: 0.8s all ease-in-out 1s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+ }
+ 
+ .hvysl .ad3:hover .content3 {
+   width: 290px;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad3 .txt3 {
+   color: black;
+   opacity: 0;
+   font-family: Times, serif;
+   font-size: 10px;
+   line-height: 150%;
+   width: 266px;
+   height: 180px;
+   padding-right: 4px;
+   overflow: auto;
+   text-align: justify;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   position: absolute;
+   top: 60px;
+   right: 60px;
+ }
+ 
+ .hvysl .ad3:hover .txt3 {
+   opacity: 0.9;
+   -webkit-transition: 0.8s all ease-in-out 2.2s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad3 .txt3::-webkit-scrollbar {
+   width: 4px;
+   background-color: transparent;
+ }
+ 
+ .hvysl .ad3 .txt3::-webkit-scrollbar-thumb {
+   background-color: 222222;
+ }  
+ 
+ 
+ 
+ 
+ 
+   
+   .hvysl .inner4 {
+   height: 0px;
+   overflow: hidden;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl:hover .inner4 {
+   height: 325px;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl .acnt4 {
+   width: 500px;
+   height: 100px;
+   padding: 50px 0px;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .acnt4:first-of-type {
+   border: none;
+ }
+ 
+ .hvysl .acnt4 h1 {
+   color: white;
+   text-align: center;
+   margin: 0px;
+   font-weight: normal;
+   width: 270px;
+   font-family: times, serif;
+   font-size: 6px;
+   letter-spacing: 1px;
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+   padding: 40px 0px;
+   text-transform: uppercase;
+ }
+ 
+ .hvysl .acnt4 hr {
+   border: none;
+   height: 1px;
+   background-color: white;
+   width: 260px;
+ }
+
+
+.hvysl .ad4 {
+   width: 500px;
+   height: 300px;
+   position: relative;
+   overflow: hidden;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .ad4 img {
+   width: 500px!important;
+   height: 300px!important;
+   display: block!imporant;
+ }
+ 
+ .hvysl .ad4 h1 {
+   z-index: 2;
+   background-color: indianred;
+   width: 100px;
+   height: 8px;
+   padding: 46px 0px;
+   text-align: center;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 8px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   color: #000000;
+   opacity: 0.9;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad4:hover h1 {
+   opacity: 0;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad4 h3 {
+   z-index: 2;
+   background-color: indianred;
+   width: 100px;
+   height: 24px;
+   padding: 38px 0px;
+   text-align: center;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 12px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   color: black;
+   opacity: 0;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad4:hover h3 {
+   opacity: 1;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad4 .ban4 {
+   width: 120px;
+   height: 0px;
+   background-color: indianred;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+   position: absolute;
+   top: 0px;
+   left: 40px;
+   opacity: 0.6;
+ }
+ 
+ .hvysl .ad4:hover .ban4 {
+   height: 300px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad4 h2 {
+   font-family: white;
+   font-size: 7px;
+   line-height: 14px;
+   letter-spacing: 1px;
+   width: 100px;
+   margin: 0px;
+   text-transform: uppercase;
+   font-family: Times, serif;
+   position: absolute;
+   left: 50px;
+   bottom: 0px;
+   opacity: 0;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   font-weight: normal;
+   color: white;
+ }
+ 
+ .hvysl .ad4:hover h2 {
+   bottom: 25px;
+   opacity: 0.8;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad4 .content4 {
+   width: 0px;
+   height: 200px;
+   position: absolute;
+   top: 50px;
+   right: 50px;
+   background-color: white;
+   opacity: 0.7;
+   -webkit-transition: 0.8s all ease-in-out 1s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+ }
+ 
+ .hvysl .ad4:hover .content4 {
+   width: 290px;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad4 .txt4 {
+   color: black;
+   opacity: 0;
+   font-family: Times, serif;
+   font-size: 10px;
+   line-height: 150%;
+   width: 266px;
+   height: 180px;
+   padding-right: 4px;
+   overflow: auto;
+   text-align: justify;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   position: absolute;
+   top: 60px;
+   right: 60px;
+ }
+ 
+ .hvysl .ad4:hover .txt4 {
+   opacity: 0.9;
+   -webkit-transition: 0.8s all ease-in-out 2.2s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad4 .txt4::-webkit-scrollbar {
+   width: 4px;
+   background-color: transparent;
+ }
+ 
+ .hvysl .ad4 .txt4::-webkit-scrollbar-thumb {
+   background-color: #222222;
+ }  
+
+.hvysl .inner5 {
+   height: 0px;
+   overflow: hidden;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl:hover .inner5 {
+   height: 325px;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl .acnt5 {
+   width: 500px;
+   height: 100px;
+   padding: 50px 0px;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .acnt5:first-of-type {
+   border: none;
+ }
+ 
+ .hvysl .acnt5 h1 {
+   color: white;
+   text-align: center;
+   margin: 0px;
+   font-weight: normal;
+   width: 270px;
+   font-family: times, serif;
+   font-size: 6px;
+   letter-spacing: 1px;
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+   padding: 40px 0px;
+   text-transform: uppercase;
+ }
+ 
+ .hvysl .acnt5 hr {
+   border: none;
+   height: 1px;
+   background-color: white;
+   width: 260px;
+ }
+
+
+.hvysl .ad5 {
+   width: 500px;
+   height: 300px;
+   position: relative;
+   overflow: hidden;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .ad5 img {
+   width: 500px!important;
+   height: 300px!important;
+   display: block!imporant;
+ }
+ 
+ .hvysl .ad5 h1 {
+   z-index: 2;
+   background-color: #0080FF;
+   width: 100px;
+   height: 8px;
+   padding: 46px 0px;
+   text-align: center;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 8px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   color: #000000;
+   opacity: 0.9;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad5:hover h1 {
+   opacity: 0;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad5 h3 {
+   z-index: 2;
+   background-color: #0080FF;
+   width: 100px;
+   height: 24px;
+   padding: 38px 0px;
+   text-align: center;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 12px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   color: black;
+   opacity: 0;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad5:hover h3 {
+   opacity: 1;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad5 .ban5 {
+   width: 120px;
+   height: 0px;
+   background-color: #0080FF;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+   position: absolute;
+   top: 0px;
+   left: 40px;
+   opacity: 0.6;
+ }
+ 
+ .hvysl .ad5:hover .ban5 {
+   height: 300px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad5 h2 {
+   font-family: white;
+   font-size: 7px;
+   line-height: 14px;
+   letter-spacing: 1px;
+   width: 100px;
+   margin: 0px;
+   text-transform: uppercase;
+   font-family: Times, serif;
+   position: absolute;
+   left: 50px;
+   bottom: 0px;
+   opacity: 0;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   font-weight: normal;
+   color: white;
+ }
+ 
+ .hvysl .ad5:hover h2 {
+   bottom: 25px;
+   opacity: 0.8;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad5 .content5 {
+   width: 0px;
+   height: 200px;
+   position: absolute;
+   top: 50px;
+   right: 50px;
+   background-color: white;
+   opacity: 0.7;
+   -webkit-transition: 0.8s all ease-in-out 1s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+ }
+ 
+ .hvysl .ad5:hover .content5 {
+   width: 290px;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad5 .txt5 {
+   color: black;
+   opacity: 0;
+   font-family: Times, serif;
+   font-size: 10px;
+   line-height: 150%;
+   width: 266px;
+   height: 180px;
+   padding-right: 4px;
+   overflow: auto;
+   text-align: justify;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   position: absolute;
+   top: 60px;
+   right: 60px;
+ }
+ 
+ .hvysl .ad5:hover .txt5 {
+   opacity: 0.9;
+   -webkit-transition: 0.8s all ease-in-out 2.2s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad5 .txt5::-webkit-scrollbar {
+   width: 4px;
+   background-color: transparent;
+ }
+ 
+ .hvysl .ad5 .txt5::-webkit-scrollbar-thumb {
+   background-color: 222222;
+ } 
+
+.hvysl .inner6 {
+   height: 0px;
+   overflow: hidden;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl:hover .inner6 {
+   height: 325px;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl .acnt6 {
+   width: 500px;
+   height: 100px;
+   padding: 50px 0px;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .acnt6:first-of-type {
+   border: none;
+ }
+ 
+ .hvysl .acnt6 h1 {
+   color: white;
+   text-align: center;
+   margin: 0px;
+   font-weight: normal;
+   width: 270px;
+   font-family: times, serif;
+   font-size: 6px;
+   letter-spacing: 1px;
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+   padding: 40px 0px;
+   text-transform: uppercase;
+ }
+ 
+ .hvysl .acnt6 hr {
+   border: none;
+   height: 1px;
+   background-color: white;
+   width: 260px;
+ }
+
+
+.hvysl .ad6 {
+   width: 500px;
+   height: 300px;
+   position: relative;
+   overflow: hidden;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .ad6 img {
+   width: 500px!important;
+   height: 300px!important;
+   display: block!imporant;
+ }
+ 
+ .hvysl .ad6 h1 {
+   z-index: 2;
+   background-color: indianred;
+   width: 100px;
+   height: 8px;
+   padding: 46px 0px;
+   text-align: center;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 8px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   color: #000000;
+   opacity: 0.9;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad6:hover h1 {
+   opacity: 0;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad6 h3 {
+   z-index: 2;
+   background-color: indianred;
+   width: 100px;
+   height: 24px;
+   padding: 38px 0px;
+   text-align: center;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 12px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   color: black;
+   opacity: 0;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad6:hover h3 {
+   opacity: 1;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad6 .ban6 {
+   width: 120px;
+   height: 0px;
+   background-color: indianred;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+   position: absolute;
+   top: 0px;
+   left: 40px;
+   opacity: 0.6;
+ }
+ 
+ .hvysl .ad6:hover .ban6 {
+   height: 300px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad6 h2 {
+   font-family: white;
+   font-size: 7px;
+   line-height: 14px;
+   letter-spacing: 1px;
+   width: 100px;
+   margin: 0px;
+   text-transform: uppercase;
+   font-family: Times, serif;
+   position: absolute;
+   left: 50px;
+   bottom: 0px;
+   opacity: 0;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   font-weight: normal;
+   color: white;
+ }
+ 
+ .hvysl .ad6:hover h2 {
+   bottom: 25px;
+   opacity: 0.8;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad6 .content6 {
+   width: 0px;
+   height: 200px;
+   position: absolute;
+   top: 50px;
+   right: 50px;
+   background-color: white;
+   opacity: 0.7;
+   -webkit-transition: 0.8s all ease-in-out 1s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+ }
+ 
+ .hvysl .ad6:hover .content6 {
+   width: 290px;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad6 .txt6 {
+   color: black;
+   opacity: 0;
+   font-family: Times, serif;
+   font-size: 10px;
+   line-height: 150%;
+   width: 266px;
+   height: 180px;
+   padding-right: 4px;
+   overflow: auto;
+   text-align: justify;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   position: absolute;
+   top: 60px;
+   right: 60px;
+ }
+ 
+ .hvysl .ad6:hover .txt6 {
+   opacity: 0.9;
+   -webkit-transition: 0.8s all ease-in-out 2.2s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad6 .txt6::-webkit-scrollbar {
+   width: 4px;
+   background-color: transparent;
+ }
+ 
+ .hvysl .ad6 .txt6::-webkit-scrollbar-thumb {
+   background-color: 222222;
+ }  
+ 
+.hvysl .inner7 {
+   height: 0px;
+   overflow: hidden;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl:hover .inner7 {
+   height: 325px;
+   -webkit-transition: 0.8s all ease-in-out;
+   -moz-transition: 0.8s all ease-in-out;
+   -o-transition: 0.8s all ease-in-out;
+ }
+ 
+ .hvysl .acnt7 {
+   width: 500px;
+   height: 100px;
+   padding: 50px 0px;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .acnt7:first-of-type {
+   border: none;
+ }
+ 
+ .hvysl .acnt7 h1 {
+   color: white;
+   text-align: center;
+   margin: 0px;
+   font-weight: normal;
+   width: 270px;
+   font-family: times, serif;
+   font-size: 6px;
+   letter-spacing: 1px;
+   border-top: 1px solid white;
+   border-bottom: 1px solid white;
+   padding: 40px 0px;
+   text-transform: uppercase;
+ }
+ 
+ .hvysl .acnt7 hr {
+   border: none;
+   height: 1px;
+   background-color: white;
+   width: 260px;
+ }
+
+
+.hvysl .ad7 {
+   width: 500px;
+   height: 300px;
+   position: relative;
+   overflow: hidden;
+   border-top: 25px solid #222222;
+ }
+ 
+ .hvysl .ad7 img {
+   width: 500px!important;
+   height: 300px!important;
+   display: block!imporant;
+ }
+ 
+ .hvysl .ad7 h1 {
+   z-index: 2;
+   background-color: #0080FF;
+   width: 100px;
+   height: 8px;
+   padding: 46px 0px;
+   text-align: center;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 8px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   color: #000000;
+   opacity: 0.9;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad7:hover h1 {
+   opacity: 0;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad7 h3 {
+   z-index: 2;
+   background-color: #0080FF;
+   width: 100px;
+   height: 24px;
+   padding: 38px 0px;
+   text-align: center;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   -o-border-radius: 100px;
+   border-radius: 100px;
+   font-weight: normal;
+   font-size: 7px;
+   text-transform: uppercase;
+   line-height: 12px;
+   letter-spacing: 1px;
+   font-family: Times, serif;
+   -webkit-transform: rotate(-7deg);
+   -moz-transform: rotate(-7deg);
+   -o-transform: rotate(-7deg);
+   color: black;
+   opacity: 0;
+   position: absolute;
+   top: 25px;
+   left: 50px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad7:hover h3 {
+   opacity: 1;
+   -webkit-transform: rotate(713deg);
+   -moz-transform: rotate(713deg);
+   -o-transform: rotate(713deg);
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad7 .ban7 {
+   width: 120px;
+   height: 0px;
+   background-color: #0080FF;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+   position: absolute;
+   top: 0px;
+   left: 40px;
+   opacity: 0.6;
+ }
+ 
+ .hvysl .ad7:hover .ban7 {
+   height: 300px;
+   -webkit-transition: 0.8s all ease-in-out 0.6s;
+   -moz-transition: 0.8s all ease-in-out 0.6s;
+   -o-transition: 0.8s all ease-in-out 0.6s;
+ }
+ 
+ .hvysl .ad7 h2 {
+   font-family: white;
+   font-size: 7px;
+   line-height: 14px;
+   letter-spacing: 1px;
+   width: 100px;
+   margin: 0px;
+   text-transform: uppercase;
+   font-family: Times, serif;
+   position: absolute;
+   left: 50px;
+   bottom: 0px;
+   opacity: 0;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   font-weight: normal;
+   color: white;
+ }
+ 
+ .hvysl .ad7:hover h2 {
+   bottom: 25px;
+   opacity: 0.8;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad7 .content7 {
+   width: 0px;
+   height: 200px;
+   position: absolute;
+   top: 50px;
+   right: 50px;
+   background-color: white;
+   opacity: 0.7;
+   -webkit-transition: 0.8s all ease-in-out 1s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+ }
+ 
+ .hvysl .ad7:hover .content7 {
+   width: 290px;
+   -webkit-transition: 0.8s all ease-in-out 1.4s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad7 .txt7 {
+   color: black;
+   opacity: 0;
+   font-family: Times, serif;
+   font-size: 10px;
+   line-height: 150%;
+   width: 266px;
+   height: 180px;
+   padding-right: 4px;
+   overflow: auto;
+   text-align: justify;
+   -webkit-transition: 0.8s all ease-in-out 0.2s;
+   -moz-transition: 0.2s all ease-in-out 0.2s;
+   -o-transition: 0.8s all ease-in-out 0.2s;
+   position: absolute;
+   top: 60px;
+   right: 60px;
+ }
+ 
+ .hvysl .ad7:hover .txt7 {
+   opacity: 0.9;
+   -webkit-transition: 0.8s all ease-in-out 2.2s;
+   -moz-transition: 0.8s all ease-in-out 1.4s;
+   -o-transition: 0.8s all ease-in-out 1.4s;
+ }
+ 
+ .hvysl .ad7 .txt7::-webkit-scrollbar {
+   width: 4px;
+   background-color: transparent;
+ }
+ 
+ .hvysl .ad7 .txt7::-webkit-scrollbar-thumb {
+   background-color: 222222;
+ }  
+
+   
+ </style>
+
+	<div class="hvysl">
+	<div class="acnt" style="background-image: url(http://i.imgur.com/Cb3ZFkB.png) ;">
+	<hr />
+	<h1>
+		Your magic White Rabbit has left its writing on the wall.</h1>
+	<hr />
+	</div>
+
+	<div class="inner">
+	<div class="ad"><img src="http://i.imgur.com/VyuImV3.png" />
+	<h1>
+		Ablaze</h1>
+	<h3>
+		Aedan<br />
+		the Avatar of Ash</h3>
+	<div class="ban">&nbsp;</div>
+	<h2>
+		<i>First</i><br />
+		God of Fire<br />
+		The Watchers Guild<br />
+		<b>Age:</b> 134<br />
+  	<b>Playby:</b> Wade Holter 
+		</h2>
+	<div class="content">&nbsp;</div>
+	<div class="txt"><b>A Little About Aedan</b><br />
+	Aedan is a newly ascended diety from the isle of Hibernia, where he was risen from the ashes of the temple of Ériu and the blood of her high priest, Declan Sullivan.  His journey has only just begun, but he is destined to embody the vengeance of Ériu, to become the vessel of her fury revisited upon the Earth.<br />
+  <br />
+	<b>Allies</b><br />
+	A creature of passion and fancy, Aedan is quick to make a deliberation on someone, trusting in his instinct and initial impressions of others, he is quick to take them into companionship, though his confidence is a more rigorously earned affection.<br />
+  <br />
+	<i>Current Allies:</i><br />
+	<b><u>Thylane</u></b> <i>Consort - Mistress of Petals (Played by Death)</i><br />
+  <b><u>Ladon</u></b> <i>Master Diety - God of Ash, Medicine, and Truth (Played by Famine)</i><br />
+  <b><u>Persolus</u></b> <i>Consort of the Master - Master of the Consort (Played by Pestilence)</i><br />
+	<br />
+	<b>Adversaries</b><br />
+	Once someone crosses the line from indifference to adversary, a feat easily and quickly accomplished with a being of such fire and passion, Aedan keeps his sight on them. He is slow to forgive, and quick to reopen old wounds between himself and those at odds with him or his allies in order to remind himself exactly why he considers them a foe.<br />
+	<br />
+	<i>Current Adversaries:</i><br />
+	<i>None Yet</i><br />
+	<br />
+	<b>Romantic Interest</b><br />
+	(Need clarification before penning blurb)<br />
+	<br />
+	<i>Current Significant Other:</i><br />
+	<b><u>Thylane</u></b> <i>Consort - Mistress of Petals (Played by Death)</i><br />
+	<br />
+	<b>LOOKING FOR</b><br />
+	<i><b>Allies</b></i> - Aedan needs friends and alliances.<br />
+	<i><b>Adversaries</b></i> - Aedan needs some conflict.<br />
+	<i><b>Romantics</b></i> - Aedan is not seeking romance.<br />
+	<br />
+	<center>
+		<a href="https://docs.google.com/document/d/1jAUJq2cyxD9ZoQELW1Bt-VM5ANdFF0riuaQfHASZt-0/edit?usp=sharing"><i><b><u>CHARACTER SHEET (IN PROGRESS)</u></b></i></a></center>
+	</div>
+	</div>
+	</div>
+
+<div class="inner2">
+  <div class="ad2"><img src="http://i.imgur.com/Xmp32GO.png?1" />
+	<h1>
+		Frozen</h1>
+	<h3>
+		Skåldyr<br />
+		the Mistress of False Hope</h3>
+	<div class="ban2">&nbsp;</div>
+	<h2>
+		<i>Second</i><br />
+		Goddess of War<br />
+    No Affiliations<br />
+		<b>Age:</b> 312<br />
+  	<b>Playby:</b> Chiara Ferragni 
+		</h2>
+	<div class="content2">&nbsp;</div>
+	<div class="txt2"><b>A Little About Skåldyr</b><br />
+	(BRIEF INTRODUCTORY BACKGROUND)<br />
+	<br />
+	<b>Allies</b><br />
+	(BRIEF EXPLANATION OF WHAT ALLIES MEAN TO THIS CHARACTER)<br />
+	<br />
+	<i>Current Allies:</i><br />
+	<b><u>(ALLY NAME)</b></u> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+
+	<b>Adversaries</b><br />
+	(BRIEF EXPLANATION OF WHAT ADVERSARIES MEAN TO THIS CHARACTER)<br />
+	<br />
+	<i>Current Adversaries:</i><br />
+	<b><u>(ADVERSARY NAME)</u></b> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+	<br />
+	<b>Romantic Interest</b><br />
+	(BRIEF EXPLANATION OF WHAT ROMANTIC INTEREST MEANS TO THIS CHARACTER)<br />
+	<br />
+<i>Current Significant Other:</i><br />
+<b><u>(SIGNIFICANT OTHER’S NAME)</u></b> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))<br />
+<br />
+<i>Interested In:</i><br />
+<b><u>(CRUSH’S NAME)</b></u> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+
+	<b>LOOKING FOR</b><br />
+	<i><b>Allies</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<i><b>Adversaries</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<i><b>Romantics</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<br />
+	<center>
+		<a href="(URL TO CHARACTER’S CHARACTER SHEET)"><i><b><u>CHARACTER SHEET</u></b></i></a></center>
+	</div>
+	</div>
+	</div>
+
+
+
+
+
+	<div class="inner2">
+	<div class="ad3"><img src="http://i.imgur.com/H7jxWnN.png" />
+	<h1>
+		</i>Worthless</h1>
+	<h3>
+		Aksel<br />
+		Nørgård</h3>
+	<div class="ban3">&nbsp;</div>
+	<h2>
+		<i>Third</i><br />
+		Assassin<br />
+		Nørgård Family<br />
+		Vampire<br />
+		<b>Age:</b> 22 (20)<br />
+  	<b>Playby:</b> Gerard Salla 
+		</h2>
+	<div class="content3">&nbsp;</div>
+	<div class="txt3"><b>A Little About Aksel</b><br />
+	<br />
+  <br />
+	<b>Allies</b><br />
+	<br />
+  <br />
+	<i>Current Allies:</i><br />
+	<br />
+	<br />
+	<b>Adversaries</b><br />
+	<br />
+  <br />
+	<i>Current Adversaries:</i><br />
+	<b><u>None</u></b><br />
+	<br />
+	<b>Romantic Interest</b><br />
+	<br />
+  <br />
+	<i>Current Significant Other:</i><br />
+	<b><u>None</u></b><br />
+	<br />
+<i>Interested In:</i>
+<br />
+<br />
+
+	<b>LOOKING FOR</b><br />
+	<i><b>Allies</b></i> - <br />
+<i><b>Adversaries</b></i> - <br />
+<i><b>Romantics</b></i> - </i><br />
+<br />
+	<center>
+		<a href="http://http://www.nextincantation.com/index.php/user/4078-godric-vance/"><i><b><u>CHARACTER SHEET</u></b></i></a></center>
+	</div>
+	</div>
+	</div>
+<div class="inner2">
+  <div class="ad4"><img src="http://i.imgur.com/cLbLFxG.png" />
+	<h1>
+		Unredeemed</h1>
+	<h3>
+		Josefine<br />
+		Sørensen</h3>
+	<div class="ban4">&nbsp;</div>
+	<h2>
+		<i>Fourth</i><br />
+		Waitress<br />
+		<b>Human Thrall</b><br />
+		<b>Master Vampire:</b> Aksel Nørgård<br />
+		<b>Age:</b> 27<br />
+    <b>Playby:</b> Camille Rowe</h2>
+	<div class="content4">&nbsp;</div>
+	<div class="txt4"><b>A Little About (CHARACTER NAME)</b><br />
+	(BRIEF INTRODUCTORY BACKGROUND)<br />
+	<br />
+	<b>Allies</b><br />
+	(BRIEF EXPLANATION OF WHAT ALLIES MEAN TO THIS CHARACTER)<br />
+	<br />
+	<i>Current Allies:</i><br />
+	<b><u>(ALLY NAME)</b></u> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+
+	<b>Adversaries</b><br />
+	(BRIEF EXPLANATION OF WHAT ADVERSARIES MEAN TO THIS CHARACTER)<br />
+	<br />
+	<i>Current Adversaries:</i><br />
+	<b><u>(ADVERSARY NAME)</u></b> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+	<br />
+	<b>Romantic Interest</b><br />
+	(BRIEF EXPLANATION OF WHAT ROMANTIC INTEREST MEANS TO THIS CHARACTER)<br />
+	<br />
+<i>Current Significant Other:</i><br />
+<b><u>(SIGNIFICANT OTHER’S NAME)</u></b> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+<i>Interested In:</i><br />
+<b><u>(CRUSH’S NAME)</b></u> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+
+	<b>LOOKING FOR</b><br />
+	<i><b>Allies</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<i><b>Adversaries</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<i><b>Romantics</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<br />
+	<center>
+		<a href="(URL TO CHARACTER’S CHARACTER SHEET)"><i><b><u>CHARACTER SHEET</u></b></i></a></center>
+	</div>
+	</div>
+	</div>
+<div class="inner2">
+  <div class="ad5"><img src="http://i.imgur.com/400dRwr.png" />
+	<h1>
+		Erudite</h1>
+	<h3>
+		Danton<br />
+		King</h3>
+	<div class="ban5">&nbsp;</div>
+	<h2>
+		<i>Fifth</i><br />
+		College Professor<br />
+		<b>Blackheart<br />
+		Vampire</b><br />
+		<b>Age:</b> 42 (40)<br />
+  	<b>Playby:</b> Daniel Gillies</h2>
+    
+    
+	<div class="content5">&nbsp;</div>
+	<div class="txt5"><b>A Little About Danton</b><br />
+	(BRIEF INTRODUCTORY BACKGROUND)<br />
+	<br />
+	<b>Allies</b><br />
+	(BRIEF EXPLANATION OF WHAT ALLIES MEAN TO THIS CHARACTER)<br />
+	<br />
+	<i>Current Allies:</i><br />
+	<b><u>(ALLY NAME)</b></u> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+
+	<b>Adversaries</b><br />
+	(BRIEF EXPLANATION OF WHAT ADVERSARIES MEAN TO THIS CHARACTER)<br />
+	<br />
+	<i>Current Adversaries:</i><br />
+	<b><u>(ADVERSARY NAME)</u></b> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+	<br />
+	<b>Romantic Interest</b><br />
+	(BRIEF EXPLANATION OF WHAT ROMANTIC INTEREST MEANS TO THIS CHARACTER)<br />
+	<br />
+<i>Current Significant Other:</i><br />
+<b><u>(SIGNIFICANT OTHER’S NAME)</u></b> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+<i>Interested In:</i><br />
+<b><u>(CRUSH’S NAME)</b></u> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+
+	<b>LOOKING FOR</b><br />
+	<i><b>Allies</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<i><b>Adversaries</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<i><b>Romantics</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<br />
+	<center>
+		<a href="(URL TO CHARACTER’S CHARACTER SHEET)"><i><b><u>CHARACTER SHEET</u></b></i></a></center>
+	</div>
+	</div>
+	</div>
+  
+  
+  
+
+<div class="inner2">
+  <div class="ad6"><img src="http://i.imgur.com/yqajbrW.png" />
+	<h1>
+		Fearless</h1>
+	<h3>
+		Rose<br />
+		Bancroft</h3>
+	<div class="ban6">&nbsp;</div>
+	<h2>
+		<i>Sixth</i><br />
+		Teaching Assistant<br />
+		<b>Human Thrall</b><br />
+		<b>Master Vampire</b><br />
+		Danton King<br />
+		<b>Age:</b> 22<br />
+  	<b>Playby:</b> Edita Vilkeviciute 
+		</h2>
+	<div class="content6">&nbsp;</div>
+	<div class="txt6"><b>A Little About Rose</b><br />
+	(BRIEF INTRODUCTORY BACKGROUND)<br />
+	<br />
+	<b>Allies</b><br />
+	(BRIEF EXPLANATION OF WHAT ALLIES MEAN TO THIS CHARACTER)<br />
+	<br />
+	<i>Current Allies:</i><br />
+	<b><u>(ALLY NAME)</b></u> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+
+	<b>Adversaries</b><br />
+	(BRIEF EXPLANATION OF WHAT ADVERSARIES MEAN TO THIS CHARACTER)<br />
+	<br />
+	<i>Current Adversaries:</i><br />
+	<b><u>(ADVERSARY NAME)</u></b> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+	<br />
+	<b>Romantic Interest</b><br />
+	(BRIEF EXPLANATION OF WHAT ROMANTIC INTEREST MEANS TO THIS CHARACTER)<br />
+	<br />
+<i>Current Significant Other:</i><br />
+<b><u>(SIGNIFICANT OTHER’S NAME)</u></b> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+<i>Interested In:</i><br />
+<b><u>(CRUSH’S NAME)</b></u> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+
+	<b>LOOKING FOR</b><br />
+	<i><b>Allies</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<i><b>Adversaries</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<i><b>Romantics</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<br />
+	<center>
+		<a href="(URL TO CHARACTER’S CHARACTER SHEET)"><i><b><u>CHARACTER SHEET</u></b></i></a></center>
+	</div>
+	</div>
+	</div>
+
+
+
+
+<div class="inner2">
+  <div class="ad7"><img src="http://i.imgur.com/yOBYAOt.png" />
+	<h1>
+		Forgotten</h1>
+	<h3>
+		Quaid<br />
+		McCain</h3>
+	<div class="ban7">&nbsp;</div>
+	<h2>
+		<i>Seventh</i><br />
+		Security<br />
+		<b>Dragomir</b><br />
+		<b>Vampire</b><br />
+		<b>Age:</b> 20 (18)<br />
+  	<b>Playby:</b> Nick Jonas 
+		</h2>
+	<div class="content7">&nbsp;</div>
+	<div class="txt7"><b>A Little About Quaid</b><br />
+	(BRIEF INTRODUCTORY BACKGROUND)<br />
+	<br />
+	<b>Allies</b><br />
+	(BRIEF EXPLANATION OF WHAT ALLIES MEAN TO THIS CHARACTER)<br />
+	<br />
+	<i>Current Allies:</i><br />
+	<b><u>(ALLY NAME)</b></u> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+
+	<b>Adversaries</b><br />
+	(BRIEF EXPLANATION OF WHAT ADVERSARIES MEAN TO THIS CHARACTER)<br />
+	<br />
+	<i>Current Adversaries:</i><br />
+	<b><u>(ADVERSARY NAME)</u></b> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+	<br />
+	<b>Romantic Interest</b><br />
+	(BRIEF EXPLANATION OF WHAT ROMANTIC INTEREST MEANS TO THIS CHARACTER)<br />
+	<br />
+<i>Current Significant Other:</i><br />
+<b><u>(SIGNIFICANT OTHER’S NAME)</u></b> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+<i>Interested In:</i><br />
+<b><u>(CRUSH’S NAME)</b></u> <i>(CHARACTER’S OCCUPATION) (Played by (AUTHOR’S NAME))</i><br />
+<br />
+
+	<b>LOOKING FOR</b><br />
+	<i><b>Allies</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<i><b>Adversaries</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<i><b>Romantics</b></i> - (WHAT THIS CHARACTER IS LOOKING FOR)<br />
+	<br />
+	<center>
+		<a href="(URL TO CHARACTER’S CHARACTER SHEET)"><i><b><u>CHARACTER SHEET</u></b></i></a></center>
+	</div>
+	</div>
+	</div>
+
+
+
+
+
+
+
+	<div class="acnt" style="background-image: url(http://i.imgur.com/KAthljP.png) ;">
+	<hr />
+	<h1>
+		We follow like Alice and just keep diving down the hole.</h1>
+	<hr />
+	</div>
+
+	<br />
+	<br />
+	<u><i>War's Plotter</i></u><br />
+	<br />
+	Post here to plot with me, if you see a character that interests one of yours!</div>
+</center>
+
+
+
+
+
